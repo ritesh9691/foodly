@@ -6,7 +6,7 @@ import 'constants/constants.dart';
 import 'views/entrypoint.dart';
 
 void main() => runApp(const MyApp());
-Widget defuaultHome = const EntryPiont();
+Widget defuaultHome =  EntryPiont();
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 

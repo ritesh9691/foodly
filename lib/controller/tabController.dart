@@ -1,15 +1,15 @@
 import 'package:get/get.dart';
 
 class TabIndexController extends GetxController {
-  RxInt _tabIndex = 0.obs;
+  RxInt tabIndex = 0.obs;
 
- int get tabIndex {
+//  int get tabIndex {
 
- return _tabIndex.value;
- }
+//  return _tabIndex.value;
+//  }
 
-  set settabIndex(int index) {
-    _tabIndex.value = index;
+  // set settabIndex(int index) {
+  //   _tabIndex.value = index;
    
-  }
+  // }
 }
