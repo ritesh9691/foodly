@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../common/customContainer.dart';
+
 class SearchPage extends StatelessWidget {
   const SearchPage({super.key});
 
@@ -9,9 +11,7 @@ class SearchPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Search here'),
       ),
-      body: Center(
-        child: Text('Search bar will be here '),
-      ),
+      body:CustomContainer(ContainerContent: Container(),)
     );
   }
 }

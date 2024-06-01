@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../common/customContainer.dart';
+
 class CartPage extends StatelessWidget {
   const CartPage({super.key});
 
@@ -9,9 +11,7 @@ class CartPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('cart Page'),
       ),
-      body: Center(
-        child: Text('cart Page Content'),
-      ),
+      body:CustomContainer(ContainerContent: Container(),)
     );
   }
 }

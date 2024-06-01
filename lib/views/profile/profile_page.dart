@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../common/customContainer.dart';
+
 class 
 ProfilePage extends StatelessWidget {
   const 
@@ -11,9 +13,7 @@ ProfilePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Page'),
       ),
-      body: Center(
-        child: Text(' Page Content'),
-      ),
+      body:CustomContainer(ContainerContent: Container(),)
     );
   }
 }
