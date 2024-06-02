@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 class ReusableText extends StatelessWidget {
-    ReusableText(  this.text,   this.applyStyle);
+     ReusableText(  {required this.text, required this.applyStyle} );
 String text;
 TextStyle applyStyle;
   @override
