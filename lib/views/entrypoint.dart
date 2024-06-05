@@ -38,6 +38,7 @@ class EntryPiont extends StatelessWidget {
 
                       print(controller.tabIndex);
                     },
+                    elevation: 0,
                     currentIndex: controller.tabIndex.value,
                     showSelectedLabels: false,
                     unselectedIconTheme:
